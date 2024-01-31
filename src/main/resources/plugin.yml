@@ -1,0 +1,8 @@
+name: Philosophers-Stone
+version: '${project.version}'
+main: org.cptgum.philosophersstone.PhilosophersStone
+api-version: '1.20'
+description: 'useless for now :D'
+authors:
+  - CptGummiball
+  - wolf128058
