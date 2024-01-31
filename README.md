@@ -18,7 +18,7 @@ These elements, along with fundamental Java classes and necessary project files,
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. The MIT License is a permissive open-source license that allows for flexibility in how the code can be used and shared.
 
 ## Contribution
-Contributions to the project are welcome! Feel free to join the discussion, propose ideas, contribute code, or suggest improvements. Please follow the established [contribution guidelines](CONTRIBUTING.md) for a smooth collaboration process.
+Contributions to the project are welcome! Feel free to join the discussion, propose ideas, contribute code, or suggest improvements. Please follow the established [contribution guidelines](https://github.com/CptGummiball/Philosophers-Stone/blob/main/.github/CONTRIBUTING.md) for a smooth collaboration process.
 
 ## Contact
 For any inquiries or collaboration requests, you can reach out to the project authors:
