@@ -24,7 +24,7 @@ public class PhilosophersStone extends JavaPlugin {
 
         //If possible, initialize last:
         // Register commands
-        getCommand("example").setExecutor(new Commands());
+        getCommand("philosophersstone").setExecutor(new Commands());
         LoggerUtils.logInfo("Plugin started!");
         //Example Usage of the Translator
         LoggerUtils.logInfo(translator.translate("examplemain.examplesub"));

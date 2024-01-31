@@ -4,6 +4,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
+import org.cptgum.philosophersstone.utils.Translator;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
@@ -13,6 +14,7 @@ import java.util.List;
 public class Commands implements CommandExecutor, TabCompleter {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+        Translator translator = Translator.getInstance();
         if (!(sender instanceof Player)) {
             sender.sendMessage("only players can execute this command");
             return true;
@@ -28,9 +30,8 @@ public class Commands implements CommandExecutor, TabCompleter {
             String subcommand = args[0].toLowerCase();
 
             switch (subcommand) {
-                case "test1":
-                    // Example2
-                    player.sendMessage("sendmessage!");
+                case "42":
+                    player.sendMessage(translator.translate("theanswer"));
                     break;
                 case "test2":
                     // Example2
@@ -55,7 +56,7 @@ public class Commands implements CommandExecutor, TabCompleter {
             String partialCommand = args[0].toLowerCase();
 
             // Add Command Names
-            List<String> commandNames = List.of("subcommand1", "subcommand2", "subcommand3");
+            List<String> commandNames = List.of("42", "subcommand1", "subcommand2", "subcommand3");
 
             for (String command : commandNames) {
                 if (command.startsWith(partialCommand)) {
