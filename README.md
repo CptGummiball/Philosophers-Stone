@@ -11,6 +11,8 @@ The repository already includes essential components such as:
 - **Command Class:** A foundation for handling commands within the plugin.
 - **Logger Class:** A logging system to facilitate effective debugging and information tracking.
 - **Translator Integration:** Enhancing the plugin's functionality with an integrated translator.
+- **Listener Templates:** Templates for implementing listeners.
+- **GUI Template:** Basic GUI structure for making API calls. Customize and expand upon this template to create a complete graphical user interface.
 
 These elements, along with fundamental Java classes and necessary project files, provide a robust starting point for the authors and collaborators.
 
